@@ -5,8 +5,8 @@ public class Problem2 {
         // This method should insert a new node with the given value at the specified position
         // If the position is out of bounds, insert the node at the end of the list
         ListNode current = head;
-        for(int i = 0; i < position; i++) {
-            if(current.next = null) {
+        for (int i = 0; i < position; i++) {
+            if (current.next == null) {
                 current.next = new ListNode(val);
                 return head;
             }
@@ -20,3 +20,4 @@ public class Problem2 {
         return head;
     }
 }
+
