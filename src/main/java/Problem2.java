@@ -3,7 +3,7 @@ public class Problem2 {
     public static ListNode insert(ListNode head, int val, int position) {
         if (position == 0) {
             ListNode newNode = head;
-            newNode.value = val;
+            newNode.val = val;
             return newNode;
         }
         // TODO: Implement the insert method
